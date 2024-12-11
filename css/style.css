@@ -1,0 +1,114 @@
+/* fonts */
+@font-face {
+  font-family: "Comic Sans";
+  src: url(../fonts/ComicNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Sour Gummy";
+  src: url(../fonts/SourGummy-Thin.ttf);
+}
+/* constant */
+body {
+  font-family: "Comic Sans";
+  font-weight: 400;
+  background-color: var(--main-bg-color);
+  color: rgb(255, 255, 255);
+}
+[role="button"] {
+  cursor: pointer;
+}
+/* bootstarb var overrwite */
+:root {
+  --bs-tertiary-bg-rgb: 58, 73, 123;
+  --bs-emphasis-color-rgb: 255, 255, 255;
+}
+/* bootstarb components  overrwite*/
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--main-color);
+}
+.navbar {
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-hover-color: rgba(var(--main-color-rgb), 1);
+}
+/* variables */
+:root {
+  --main-color: #0099cc;
+  --main-color-rgb: 0, 153, 204;
+  --main-btn-color: #4a6792;
+  --main-bg-color: #272b30;
+  --main-btn-platform-color: #272b30;
+  --main-platform-details-color: #0dcaf0;
+}
+/* css decorations */
+
+#Games header img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 30vh;
+}
+#Games nav {
+  border-radius: 25px;
+  box-shadow: 0px 0px 7px 6px #0000003f;
+  padding: 5px !important;
+  padding-block: 15px !important;
+  margin-top: -35px;
+  margin-inline: auto;
+}
+#Games nav .container-fluid img {
+  width: 40px;
+  opacity: 0.6;
+  margin-right: 10px;
+}
+#Games nav .container-fluid h5 {
+  font-family: "Sour Gummy";
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+#Games section .card {
+  color: white;
+  transition: all 0.6s;
+}
+#Games section .card img {
+  filter: grayscale(75%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: all 0.6s;
+}
+#Games section .card:hover img {
+  filter: grayscale(0%);
+}
+#Games section .card:hover {
+  scale: 1.06;
+}
+#Games section .card .title-card {
+  font-family: "Sour Gummy";
+}
+#Games section .card .title-card h3 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#Games section .card .card-body .title-card span {
+  font-size: 14px;
+  font-weight: 700;
+  padding-inline: 7px !important;
+  background-color: #4a6792;
+  transition: all 0.6s;
+}
+#Games section .card:hover .title-card span {
+  background-color: #0d6efd;
+}
+#Games section .card .card-body p {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
+#Games section .card .card-body span {
+  background-color: #32383e;
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: 8px;
+  padding-inline: 7px;
+}
