@@ -112,3 +112,60 @@ body {
   border-radius: 8px;
   padding-inline: 7px;
 }
+
+/* Details Game */
+#DetailsGame {
+  min-height: 100vh;
+  background-color: #27282b;
+}
+#DetailsGame nav {
+  padding-top: 20px;
+  margin-bottom: 7px;
+}
+#DetailsGame nav .navbar-brand {
+  font-family: "Sour Gummy";
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+#DetailsGame section h3 {
+  font-family: "Sour Gummy";
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+#DetailsGame section p {
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+#DetailsGame section p span {
+  background-color: #0dcaf0;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0px;
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+#DetailsGame section p.game-description {
+  font-family: "Sour Gummy";
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 20px;
+}
+#DetailsGame section a {
+  font-family: "Sour Gummy";
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: solid 1px #ffc107;
+
+  transition: all 0.4s;
+}
+#DetailsGame section a:hover {
+  background-color: #ffc107;
+}
