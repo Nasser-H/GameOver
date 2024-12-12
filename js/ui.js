@@ -13,17 +13,13 @@ export class Ui {
                     <div id="${
                       response[i].id
                     }" class="card bg-transparent" role="button">
-                        <img src="${
-                          response[i].thumbnail
-                        }" class="card-img-top p-3" alt="...">
+                        <img src="${response[i].thumbnail}" class="card-img-top p-3" alt="${response[i].title} image">
                         <div class="card-body pt-0 p-3">
                             <figure class="title-card mb-0 d-flex justify-content-between">
                                 <h3 class="card-title">${response[i].title}</h3>
                                 <span class="p-1 rounded-1 text-center">Free</span>
                             </figure>
-                            <p class="card-text mb-3 text-center" style="height:63px">${response[
-                              i
-                            ].short_description.split(" ", 8)}</p>
+                            <p class="card-text mb-3 text-center" style="height:63px">${response[i].short_description.split(" ", 8)}</p>
                         </div>
                         <hr class="m-0 border-black">
                         <div class="card-body px-3 py-2 d-flex justify-content-between">
@@ -46,7 +42,7 @@ export class Ui {
                 <div class="row gy-4 pb-4">
                     <div class="col-md-4">
                         <div class="inner">
-                            <img src="${response.thumbnail}" class="w-100" alt="ss">
+                            <img src="${response.thumbnail}" class="w-100" alt="${response.title} image">
                         </div>
                     </div>
                     <div class="col-md-8">
